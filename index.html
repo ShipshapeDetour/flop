@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>flop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <style>
+        h1,
+        h3,
+        body {
+            margin: 0;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        #restart {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body style="text-align: center">
+    <h1>flop</h1>
+    <canvas id="canvas"></canvas>
+    <div id="controls">
+        <h1 id="score">score = 0</h1>
+        <h3 id="highscore">highscore = 0</h3>
+        <a id="restart" onclick="init()">restart</a>
+    </div>
+    <div id="footer"></div>
+    <script src="flop.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
